@@ -1,6 +1,7 @@
 // Import the React and ReactDom libraries
 import React from 'react';
 import ReactDOM from 'react-dom';
+import faker from 'faker';
 //import { createRoot } from 'react-dom/client';
 
 // Create a React Component
@@ -9,7 +10,7 @@ const App =  function () {
       <div className="ui container comments">
           <div className="comment">
               <a href="/" className="avatar">
-                  <img alt="avatar" />
+                  <img alt="avatar" src={faker.image.image()} />
               </a>
               <div className="content">
                   <a href="/" className="author">
