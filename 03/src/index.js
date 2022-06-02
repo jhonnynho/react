@@ -2,14 +2,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import CommentDetail from "./CommentDetail";
-import faker from 'faker';
+
 //import { createRoot } from 'react-dom/client';
 
 // Create a React Component
 const App =  function () {
     return (
       <div className="ui container comments">
-          <CommentDetail />
+          <CommentDetail author="Sam"/>
+          <CommentDetail author="Alex"/>
+          <CommentDetail author="Jane"/>
       </div>  
     );
 };
