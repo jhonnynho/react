@@ -2,6 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import CommentDetail from "./CommentDetail";
+import faker from "faker";
 
 //import { createRoot } from 'react-dom/client';
 
@@ -9,9 +10,9 @@ import CommentDetail from "./CommentDetail";
 const App =  function () {
     return (
       <div className="ui container comments">
-          <CommentDetail author="Sam" timeAgo='Today at 4:45PM'/>
-          <CommentDetail author="Alex" timeAgo='Today at 2:00PM'/>
-          <CommentDetail author="Jane" timeAgo='Yesterday at 5:00PM'/>
+          <CommentDetail author="Sam" timeAgo='Today at 4:45PM' avatar={faker.image.image()} content="Nice blog post"/>
+          <CommentDetail author="Alex" timeAgo='Today at 2:00PM' avatar={faker.image.image()} content="I like the subject"/>
+          <CommentDetail author="Jane" timeAgo='Yesterday at 5:00PM' avatar={faker.image.image()} content="I like the writing"/>
       </div>  
     );
 };
