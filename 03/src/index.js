@@ -1,6 +1,7 @@
 // Import the React and ReactDom libraries
 import React from 'react';
 import ReactDOM from 'react-dom';
+import CommentDetail from "./CommentDetail";
 import faker from 'faker';
 //import { createRoot } from 'react-dom/client';
 
@@ -8,7 +9,7 @@ import faker from 'faker';
 const App =  function () {
     return (
       <div className="ui container comments">
-          
+          <CommentDetail />
       </div>  
     );
 };
