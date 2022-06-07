@@ -10,3 +10,5 @@ https://www.udemy.com/course/react-redux
 ## Section 04 - Structuring Apps with Class-Based Components
 
 ## Section 05 - State in React Components
+
+## Section 06 - Understanding Lifecycle Methods
