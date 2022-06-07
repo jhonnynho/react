@@ -1,19 +1,15 @@
-// Import the React and ReactDom libraries
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-//import { createRoot } from 'react-dom/client';
-
-// Create a React Component
-const App = () => {
-    window.navigator.geolocation.getCurrentPosition(
-        (position) => console.log(position),
-        (err) => console.log(err)
-    );
-    return (
-        <div>Hi There!</div>
-    );
-};
+class App extends React.Component {
+    render () {
+        window.navigator.geolocation.getCurrentPosition(
+            (position) => console.log(position),
+            (err) => console.log(err)
+        );
+        return <div>Latitude; </div>;
+    }
+}
 
 // Take the React component and show it on the screen
 ReactDOM.render(
