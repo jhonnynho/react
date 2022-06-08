@@ -12,3 +12,5 @@ https://www.udemy.com/course/react-redux
 ## Section 05 - State in React Components
 
 ## Section 06 - Understanding Lifecycle Methods
+
+## Section 07 - Handling User Input with Forms and Events
